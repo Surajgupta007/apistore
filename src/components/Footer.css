@@ -1,0 +1,30 @@
+.footer-custom {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  margin-top: auto;
+  z-index: 1000;
+  width: 100%;
+}
+
+.footer-custom h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.footer-custom p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-custom ul li {
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.footer-custom ul li::before {
+  content: "✓ ";
+  color: #ffd700;
+  font-weight: bold;
+  margin-right: 8px;
+}
